@@ -1,0 +1,13 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#selfportrait {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+  margin-top: 1300px;
+}
