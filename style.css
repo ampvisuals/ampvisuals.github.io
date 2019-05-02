@@ -1,3 +1,11 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+container{
+  text-align: center;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -10,4 +18,33 @@
   text-align: center;
   width: 500px;
   margin-top: 1300px;
+}
+
+p.double {
+  border-style: double;}
+
+  .double {
+    margin: 0 auto;
+    width: 500px;
+  }
+
+  #first {
+    margin: 0 auto;
+    width: 300px;
+  }
+#second {
+  margin: 0 auto;
+  width: 200px;
+}
+.links {
+  text-decoration: none;
+}
+
+#animation {
+  border: none;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
 }
